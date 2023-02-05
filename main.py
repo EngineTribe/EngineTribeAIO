@@ -1,5 +1,6 @@
 import multiprocessing
 import sys, os
+import time
 
 
 def run_api():
@@ -26,8 +27,6 @@ def run_bot_discord():
 if __name__ == '__main__':
     p_api = multiprocessing.Process(target=run_api)
     p_api.start()
-    import time
-
     time.sleep(0.3)
     p_bot_discord = multiprocessing.Process(target=run_bot_discord)
     p_bot_discord.start()

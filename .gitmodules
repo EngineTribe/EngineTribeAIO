@@ -1,0 +1,6 @@
+[submodule "enginebot_discord"]
+	path = enginebot_discord
+	url = https://github.com/EngineTribe/EngineBotDiscord
+[submodule "enginetribe"]
+	path = enginetribe
+	url = https://github.com/EngineTribe/EngineTribe
